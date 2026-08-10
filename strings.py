@@ -1,0 +1,7 @@
+fn= input("enter first name:-")
+mn= input("enter middle name:-")
+ln=input("enter last name:-")
+ph=input("enter mobile number:-")
+dob=input("enter date of birth:-")
+add=input("enter address:-")
+print("your ID :-",fn[-2:]+ph[:2]+dob[-4:])
