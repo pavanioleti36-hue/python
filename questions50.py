@@ -1,0 +1,8 @@
+t=(23, 200 , 3,16,53, 4,21, 5,236,6 )
+print(t)
+l=list(t)
+l.sort()
+print(l)
+print(l[1])
+t=tuple(l)
+print(type(t))
