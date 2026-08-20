@@ -1,5 +1,12 @@
+<<<<<<< HEAD
 Python
 Java
 C
 DS
+=======
+Python
+Java
+C
+DS
+>>>>>>> cc9c058bde5fd6ced8fb6651372cb99cdb3da7a2
 pavani courses
