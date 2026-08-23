@@ -1,0 +1,1 @@
+print("pavani".capitalize())
