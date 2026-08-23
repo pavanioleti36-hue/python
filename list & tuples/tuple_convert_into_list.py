@@ -1,0 +1,8 @@
+tup= (30,29,40,50,20,10,90)
+print("Tuple : ",tup, type(tup))
+lis= list(tup)
+print("list : ",lis, type(lis))
+lis.append(1)
+lis.append(2)
+lis.append(3)
+print("list : ",lis)

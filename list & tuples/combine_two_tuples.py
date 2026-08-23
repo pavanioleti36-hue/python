@@ -1,0 +1,5 @@
+t1= (180, 185, 184)
+t2= ("sowmya","pravee","suma")
+print("first list :", t1)
+print("first list :", t2)
+print("combining two lists : ", t1+ t2)

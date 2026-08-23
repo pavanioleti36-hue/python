@@ -1,0 +1,7 @@
+std_info= ( 169, "pavani", "cse","C", "aditya college")
+print("tuple: ", std_info)
+print("pin no: ",std_info[0])
+print("name: ",std_info[1])
+print("branch: ",std_info[2])
+print("section: ",std_info[3])
+print("college name: ",std_info[4])
