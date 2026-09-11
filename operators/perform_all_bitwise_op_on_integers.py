@@ -1,0 +1,8 @@
+a= int(input("Enter a number: "))
+b= int(input("Enter a number: "))
+print("AND operation:", a & b)
+print("OR operation:", a | b)
+print("XOR operation:", a ^ b)
+print("NOT operation:", ~a)
+print("Left Shift operation:", a << 2)
+print("Right Shift operation:", a >> 2)
