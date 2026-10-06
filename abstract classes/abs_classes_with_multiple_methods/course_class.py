@@ -1,0 +1,31 @@
+from abc import ABC, abstractmethod
+
+class Course(ABC):
+    @abstractmethod
+    def start_course(self):
+        pass
+
+    @abstractmethod
+    def get_duration(self):
+        pass
+
+class OnlineCourse(Course):
+    def start_course(self):
+        print("Online Course Started")
+
+    def get_duration(self):
+        print("Duration: 3 months")
+
+class OfflineCourse(Course):
+    def start_course(self):
+        print("Offline Course Started")
+
+    def get_duration(self):
+        print("Duration: 6 months")
+
+o = OnlineCourse()
+f = OfflineCourse()
+o.start_course()
+o.get_duration()
+f.start_course()
+f.get_duration()
